@@ -1,0 +1,116 @@
+.bg-container {
+  min-height: 100vh;
+  font-weight: bold;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5763a5;
+}
+.horizontalLine {
+  border: 2px solid #ffffff;
+}
+.logoImageContainer {
+  text-align: center;
+  border-radius: 16px;
+}
+.logo-parent-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 90%;
+}
+.password-container1 {
+  background-color: #454f84;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  display: flex;
+  padding: 30px;
+  justify-content: space-around;
+}
+.checkbox-container {
+  align-self: flex-end;
+}
+.parent-list-container {
+  display: flex;
+  border-radius: 8px;
+  background-color: #454f84;
+  flex-direction: column;
+}
+
+.parent-list-container-items {
+  display: flex;
+  justify-content: space-between;
+}
+.list-container {
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+.logo-container {
+  margin-bottom: 20px;
+}
+input {
+  border: none;
+}
+.websiteContainer {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+.userContainer {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+.passwordContainer {
+  background-color: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+.image1 {
+  width: 200px;
+}
+.image2 {
+  border-radius: 8px;
+  width: 25px;
+  background-color: #ffffff;
+}
+.image3 {
+  height: 200px;
+  width: 200px;
+}
+
+@media (max-width: 576px) {
+  .lg {
+    display: none;
+  }
+}
+@media (min-width: 576px) {
+  .sm {
+    display: none;
+  }
+}
+.parent-list-search-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  height: 25px;
+}
+ul {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+}
